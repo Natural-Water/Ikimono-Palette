@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <script src="js/app.js" defer></script>
+    <script src="js/leafony.js" defer></script>
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <!-- <label>RGB色コードを入力してください  R:<input type="text" id="r">G:<input type="text" id="g">B:<input type="text" id="b"></label>
+    <canvas id=canvas></canvas> -->
+    <main>
+        <article>
+            <section class="first" id="js_first">
+                <div class="col-sm-4 mt-4 mx-auto">
+                    <button type="button" class="btn btn-primary btn-lg" id="ble-connect-button"><img src="photo/bluetooth_1.png" alt="bluetooth"></button>
+                    <button type="button" class="btn btn-danger btn-lg" id="ble-disconnect-button"
+                      style="display:none;">Disconnect</button>
+                  </div>
+                  <div class="col-sm-4 mt-4 mx-auto" style="display:none;">
+                    <div class="custom-control custom-switch">
+                      <input type="checkbox" class="custom-control-input" id="sleepmode-switch">
+                      <label class="custom-control-label" for="sleepmode-switch">Sleep Mode</label>
+                    </div>
+                  </div>
+                <p>自分だけの色をあつめ</p>
+                <h1 class="logofo"><img src="photo/logo.png" alt="いきものパレット" class="logo" id="js_logo"></h1>
+                <canvas id="fstcanvas1"  height="270px" width="270px"></canvas>
+                <canvas id="fstcanvas2"  height="170px" width="170px"></canvas>
+            </section>
+            <section class="second" id="js_second">
+                <h2><img src="photo/logo.png" alt="いきものパレット" class="sclogo"></h2>
+                <canvas id=canvas    width ="1000px" height="800px" ></canvas>
+
+            </section>
+        </article>
+
+    </main>
+
+
+
+</body>
+
+</html>

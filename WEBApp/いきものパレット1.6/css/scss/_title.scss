@@ -1,0 +1,103 @@
+.first {
+    // padding:42% 100%;
+    z-index: 1;
+    width: 2048px;
+    height: 1500px;
+
+    p {
+        width: 800px;
+        font-size: 55px;
+        position: absolute;
+        top: 235px;
+        right: 1155px;
+        //フェードイン
+        animation-timing-function: linear;
+        animation-name: fadeInout;
+        animation-duration: 4s;
+        animation-fill-mode: forwards;
+        opacity: 0;
+        // transition : 1.5s ease-in-out ;
+
+        @keyframes fadeInout {
+            0% {
+                opacity: 0;
+            }
+
+            30% {
+                opacity: 1;
+            }
+
+            80% {
+                opacity: 1;
+            }
+
+            100% {
+                opacity: 0;
+            }
+        }
+    }
+
+    .logo {
+
+        width: 755px;
+        height: auto;
+        position: absolute;
+        left: 106px;
+        top: 200px;
+
+        //フェードイン
+        animation-timing-function: linear;
+        animation-delay: 4s;
+        animation-name: fadeInAnime;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
+
+        @keyframes fadeInAnime {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+    }
+
+
+
+
+    #fstcanvas1 {
+        // width: 520px;
+        // height: 520px;
+        position: absolute;
+        left: 0;
+        //フェードイン
+
+    }
+
+    #fstcanvas2 {
+        // width: 320px;
+        // height: 320px;
+        top: 480px;
+        left: 800px;
+        position: absolute;
+
+    }
+
+    #ble-connect-button {
+        position: relative;
+        z-index: 999;
+        right: 3%;
+        background-color: transparent;
+        border-color: transparent;
+        
+    img{
+        width: 8%;
+    }
+    }
+    #ble-disconnect-button{
+        display: none;
+    }
+
+}
